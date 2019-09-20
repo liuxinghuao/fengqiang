@@ -1,0 +1,154 @@
+@charset "utf-8";
+/* CSS Document */
+body,html{ color: #142434;}
+.vblack{ width:100%; height:auto; background:#F2F2F2;}
+.vwhite{width:100%; height:auto; background:#FFF;}
+.vproblem{ width:1200px; height:704px; padding-top:56px; margin:0 auto; background:url("../images/vproblem.png"/*tpa=http://www.91kaidian.com/images/vproblem.png*/) no-repeat  left bottom; position:relative;}
+.vproblem h1{ font-size:36px; color:#ffaa33; text-indent:508px; line-height:36px;}
+.vproblem .problemP1{color:#0db05f; font-weight:bold; font-size:48px; line-height:48px; display:inline-block; position:absolute; left:338px; top:58px;}
+.vproblem .problemP2{ font-weight:bold; font-size:36px; line-height:60px; display:inline-block; position:absolute; left:508px; top:75px;}
+.vproblem .problemP2 .problemSp1{color:#0db05f;}
+.vproblem .problemP2 .problemSp2{ font-size:60px;color:#0db05f;}
+.vproblem .problemP3{ font-size:48px; line-height:48px;  margin-top:54px; text-align:center; font-weight:bold;}
+.vproblem ul{ width:1200px; height:525px; position:relative; margin-top:53px;}
+.vproblem ul li{ width:509px; height:105px; line-height:84px; font-size:24px; text-indent:20px;}
+.vproblem ul .problemLi1{ position: absolute; top:0; right:45px; background:url("../images/problemLi1.png"/*tpa=http://www.91kaidian.com/images/problemLi1.png*/) no-repeat left top;}
+.vproblem ul .problemLi2{ position: absolute; top:89px; right:106px; background:url("../images/problemLi2.png"/*tpa=http://www.91kaidian.com/images/problemLi2.png*/) no-repeat left top;}
+.vproblem ul .problemLi3{ position: absolute; top:178px; right:176px; background:url("../images/problemLi3.png"/*tpa=http://www.91kaidian.com/images/problemLi3.png*/) no-repeat left top;}
+.vproblem ul .problemLi4{ position: absolute; top:267px; right:83px; background:url("../images/problemLi4.png"/*tpa=http://www.91kaidian.com/images/problemLi4.png*/) no-repeat left top;}
+.vproblem ul .problemLi5{ position: absolute; top:356px; right:198px; background:url("../images/problemLi5.png"/*tpa=http://www.91kaidian.com/images/problemLi5.png*/) no-repeat left top;}
+.vshop{width:1100px; height:auto; padding:117px 50px 148px; text-align: center; margin: 0 auto;}
+.vshop h2{ font-size: 60px; color: #0db05f; display: inline-block; padding-right: 143px; background: url("../images/wd1.jpg"/*tpa=http://www.91kaidian.com/images/wd1.jpg*/) no-repeat top right; line-height: 71px;}
+.vshop h2 span{font-size: 48px; color: #232323;  }
+.vshop p{ font-size: 48px; color:#ffaa33; font-weight: bold;}
+.vshop ul{ overflow: hidden; margin-top: 90px;}
+.vshop ul li{ float: left; width: 178px; text-align: center; margin-left: 52px;}
+.vshop ul .li1{ margin-left: 0;}
+.vshop ul li dl dt{ width: 178px; height: 178px;}
+.vshop ul .li1 dl dt{ background: url("../images/wd2.jpg"/*tpa=http://www.91kaidian.com/images/wd2.jpg*/) no-repeat;}
+.vshop ul .li2 dl dt{ background: url("../images/wd3.jpg"/*tpa=http://www.91kaidian.com/images/wd3.jpg*/) no-repeat;}
+.vshop ul .li3 dl dt{ background: url("../images/wd4.jpg"/*tpa=http://www.91kaidian.com/images/wd4.jpg*/) no-repeat;}
+.vshop ul .li4 dl dt{ background: url("../images/wd5.jpg"/*tpa=http://www.91kaidian.com/images/wd5.jpg*/) no-repeat;}
+.vshop ul .li5 dl dt{ background: url("../images/wd6.jpg"/*tpa=http://www.91kaidian.com/images/wd6.jpg*/) no-repeat;}
+.vshop ul .li1 dl dt:hover{ background: url("../images/wd2-1.jpg"/*tpa=http://www.91kaidian.com/images/wd2-1.jpg*/) no-repeat;}
+.vshop ul .li2 dl dt:hover{ background: url("../images/wd3-1.jpg"/*tpa=http://www.91kaidian.com/images/wd3-1.jpg*/) no-repeat;}
+.vshop ul .li3 dl dt:hover{ background: url("../images/wd4-1.jpg"/*tpa=http://www.91kaidian.com/images/wd4-1.jpg*/) no-repeat;}
+.vshop ul .li4 dl dt:hover{ background: url("../images/wd5-1.jpg"/*tpa=http://www.91kaidian.com/images/wd5-1.jpg*/) no-repeat;}
+.vshop ul .li5 dl dt:hover{ background: url("../images/wd6-1.jpg"/*tpa=http://www.91kaidian.com/images/wd6-1.jpg*/) no-repeat;}
+.vshop ul li dl dd{font-size: 14px; line-height: 30px; margin-top: 30px;}
+.vshop ul li dl dd span{ font-size: 30px;}
+
+.tp-a{ width: 100%; background: #f2f2f2;}
+.banx-a{ width: 1000px; padding: 78px 100px 55px; margin: 0 auto;}
+.banx-a h2{ font-size: 52px; color: #0db05f; text-align: center;}
+.banx-a h2 span{ color: #ffaa33;}
+.banx-a p{ font-size: 48px; font-weight: bold; text-align: center; line-height: 80px;}
+.banx-a ul{ overflow:hidden; margin-top: 80px;}
+.banx-a ul li{ width: 276px; height: 200px; float: left;  margin-left: 82px; margin-top: 20px;}
+.banx-a ul li dl{ width: 276px; height: 200px;}
+.banx-a ul li dl dt{ width: 100px; height: 94px; padding-left: 176px; font-size: 12px; color: #717171; padding-top: 36px;}
+.banx-a ul li dl dd{ font-size: 24px; padding-left: 30px; width: 246px; margin-top: 40px;}
+.banx-a ul .li1{ background: url("../images/wd7.jpg"/*tpa=http://www.91kaidian.com/images/wd7.jpg*/) no-repeat top left; margin-left: 0;}
+.banx-a ul .li2{ background: url("../images/wd8.jpg"/*tpa=http://www.91kaidian.com/images/wd8.jpg*/) no-repeat top left;}
+.banx-a ul .li3{ background: url("../images/wd9.jpg"/*tpa=http://www.91kaidian.com/images/wd9.jpg*/) no-repeat top left;}
+.banx-a ul .li4{ background: url("../images/wd10.jpg"/*tpa=http://www.91kaidian.com/images/wd10.jpg*/) no-repeat top left; margin-left: 0;}
+.banx-a ul .li5{ background: url("../images/wd11.jpg"/*tpa=http://www.91kaidian.com/images/wd11.jpg*/) no-repeat top left;}
+.banx-a ul .li6{ background: url("../images/wd12.jpg"/*tpa=http://www.91kaidian.com/images/wd12.jpg*/) no-repeat top left;}
+.banx-a ul .li7{ background: url("../images/wd13.jpg"/*tpa=http://www.91kaidian.com/images/wd13.jpg*/) no-repeat top left; margin-left: 0;}
+.banx-a ul .li8{ background: url("../images/wd14.jpg"/*tpa=http://www.91kaidian.com/images/wd14.jpg*/) no-repeat top left;}
+.banx-a ul .li9{ background: url("../images/wd15.jpg"/*tpa=http://www.91kaidian.com/images/wd15.jpg*/) no-repeat top left;}
+
+.banx-b{ width: 1114px; padding:  66px 43px 52px; margin: 0 auto; overflow:hidden;}
+.banx-b h2{ font-size: 60px; color: #ffaa33; text-align: center;}
+.banx-b p{ font-size: 48px; text-align: center; margin-top: -60px;}
+.banx-b p span{ color: #0db05f; font-weight: bold;}
+.banx-b p .sp1{ font-size: 102px;}
+.banx-b p .sp2{ font-size: 60px;   margin-right: 7px;}
+.wsjc{ width: 1114px;}
+.box-l{ width: 281px; height: 548px; background: url("../images/wd17.jpg"/*tpa=http://www.91kaidian.com/images/wd17.jpg*/) no-repeat; position: relative; float: left; margin-top: 40px;}
+.box-l h2{ font-size: 24px; color: #fff; position: absolute; top: 74px; left: 60px;}
+.box-l p{ font-size: 14px; color: #fff; font-weight: bold; margin-top: 0;position: absolute; top: 417px; left: 93px;}
+.box-l ul{ width: 205px; height: 293px; position: absolute; top: 115px; left: 29px;}
+.box-l ul li{cursor: pointer; font-size: 20px; color: #767676; width: 205px; height: 41px; text-align: center; line-height: 41px;}
+.box-l ul .li1{margin-top: -2px;}
+.box-l ul li:hover{font-weight: bold; color: #fff;}
+.box-l ul .li1:hover{ background: url("../images/wd19.jpg"/*tpa=http://www.91kaidian.com/images/wd19.jpg*/) no-repeat; }
+.box-l ul .li2{margin-top: 1px;}
+.box-l ul .li2:hover{ background: url("../images/wd16.jpg"/*tpa=http://www.91kaidian.com/images/wd16.jpg*/) no-repeat;}
+.box-l ul .li3{margin-top: 1px;}
+.box-l ul .li3:hover{ background: url("../images/wd20.jpg"/*tpa=http://www.91kaidian.com/images/wd20.jpg*/) no-repeat;}
+.box-l ul .li4{margin-top: 1px;}
+.box-l ul .li4:hover{ background: url("../images/wd21.jpg"/*tpa=http://www.91kaidian.com/images/wd21.jpg*/) no-repeat;}
+.box-l ul .li5:hover{ background: #4fb576;}
+.box-l ul .li6:hover{ background: #4fb576;}
+.box-l ul .li6{ margin-top: 1px;}
+.box-l ul .li7{ margin-top: 1px;}
+.box-l ul .li7:hover{ background: #4fb576;}
+.box-m{ float: left; width: 18px; margin-top: 140px;}
+.box-m ul li{ width: 12px; height: 12px; border-radius: 50%; border: 3px solid #4fb576; margin-top: 24px;}
+.box-r{ float: right; width: 786px; height: 612px; position: relative;}
+.box-r img{ display: block; position: absolute; top: 0; left: 0;}
+.cont{background: #4fb576;}
+
+.banx-c {width: 1120px; margin: 0 auto; padding: 80px 40px 110px;}
+.banx-c .dl1{ overflow:hidden; margin: 0 auto; width: 695px;}
+.banx-c .dl1 dt{ font-size:115px ; font-weight: bold; color:#ffaa33; line-height: 115px;}
+.banx-c .dl1 dt,.banx-c .dl1 dd{ float: left;}
+.banx-c .dl1 dd .span1{ font-size: 60px;color: #0db05f; font-weight: bold; line-height: 60px;}
+.banx-c .dl1 dd .span2{ font-size: 48px; line-height: 62px;}
+.banx-c ul{ overflow: hidden; margin-top: 45px;}
+.banx-c ul li{float: left; width: 219px; text-align: center; margin-left: 5px;}
+.banx-c ul li dl dt{ width: 219px; height: 173px; position: relative; border: 1px solid #ccc;}
+.banx-c ul li dl dd{ font-size: 24px;  line-height: 36px; margin-top: 20px;}
+.banx-c ul .li1,.banx-c ul .li6{ margin-left: 0;}
+.banx-c ul .mat{ margin-top: 50px;}
+.banx-c ul li span{ font-size: 36px; color: #fff; font-weight: bold; width: 176px; height: 64px; border: 2px solid #fff; border-radius: 10px; line-height: 64px; text-align: center; position: absolute; top: 53px; left: 20px; display: none; background: rgba(255,255,255,0.5);}
+.back {background:rgba(0,0,0,0.3);}
+.banx-c ul li dl dt:hover span{ display:block;}
+
+.tp-b{ width: 100%; height: 655px; background: url("../images/wd38.jpg"/*tpa=http://www.91kaidian.com/images/wd38.jpg*/) no-repeat;}
+.banx-d{ width: 1100px; margin: 0 auto; padding: 150px 50px 110px;}
+.zws{ width: 432px; float: left; margin-top: 35px;}
+.zws h3{ font-size: 36px; color: #0db05f;}
+.zws h3 span{ font-size: 48px; color: #142434;}
+.zws p { font-size: 18px; text-indent: 2em; line-height: 36px; margin-top: 45px;}
+.zws .p2{ margin-top: 0;}
+.zws .p3{ margin-top: 30px; display: inline-block; padding-right: 24px; background: url("../images/wd62.png"/*tpa=http://www.91kaidian.com/images/wd62.png*/) no-repeat center right; font-size: 14px; line-height: 14px; font-weight: bold; margin-left: 190px; text-indent: 0;}
+.zhsh{ float: right; width: 650px; height: 479px;}
+
+.tp-c{ width: 100%; height: 680px; background: #f2f2f2;}
+.banx-e{ width: 1110px; margin: 0 auto; padding: 85px 45px 100px;}
+.banx-e h2{ font-size: 60px; color: #0db05f; text-align: center;}
+.banx-e h2 span{ color: #ffaa33;}
+.banx-e p{ font-size: 48px; font-weight: bold; text-align: center;}
+.banx-e ul{overflow:hidden; margin-top: 65px;}
+.banx-e ul li{ float: left; width: 347px; height: 117px; margin-left: 34px;}
+.banx-e ul .li1,.banx-e ul .li4{ margin-left: 0;}
+.banx-e ul .mat{ margin-top: 65px;}
+.banx-e ul li dl{overflow:hidden;}
+.banx-e ul li dl dt,.banx-e ul li dl dd{ float: left;}
+.banx-e ul li dl dd{ width: 229px; height: 117px;}
+.banx-e ul li .p1{ font-size: 24px; font-weight: bold;}
+.banx-e ul li .p2{ font-size: 18px; line-height: 43px; font-weight: normal;}
+.banx-e ul li .p3{ font-size: 24px; color: #fff; color: #fff; width: 229px; height: 34px; line-height: 34px;  margin-top: 9px; -moz-line-height:36px;}
+.banx-e ul li .ys1{background: #df6850;}
+.banx-e ul li .ys2{background: #e9d73b;}
+.banx-e ul li .ys3{background: #4fdc85;}
+.banx-e ul li .ys4{background: #79d2ef;}
+.banx-e ul li .ys5{background: #799aef;}
+.banx-e ul li .ys6{background: #e079ef;}
+
+.tp-f{ width: 100%;}
+.banx-f{ width: 1190px; padding: 90px 5px 25px; margin: 0 auto;}
+.banx-f p { font-size: 48px; font-weight: bold; text-align: center;}
+.banx-f h2{ font-size: 60px; color: #ffaa33; text-align: center;}
+.banx-f ul{ overflow: hidden; margin-top: 60px;}
+.banx-f ul li{ float: left; width: 230px; height: 215px; margin-left: 10px;}
+.banx-f ul .li1{ margin-left: 0;}
+.banx-f ul .mat{ margin-top: 10px;}
+
+
+
+
+
+

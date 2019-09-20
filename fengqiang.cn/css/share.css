@@ -1,0 +1,288 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+    height:100%;
+    overflow-x:hidden;
+}
+
+body {
+    width:100%;
+    background:#fff;
+    overflow-x:hidden;
+    font-family: "微软雅黑";
+    color:#142434;
+    font-size:16px;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+    margin:0;
+    padding:0;
+}
+
+img {
+    border:0;
+}
+ol, ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+a:link,a:visited,a:hover {
+  text-decoration: none;
+  color:#b4b7ba; 
+}
+
+*{ margin: 0; padding: 0;}
+.bx{width: 1100px;height: auto;margin:0 auto;padding-bottom: 10px;}
+ul,ol{ list-style: none;}
+.bx h2{border-bottom:1px solid #000;}
+.bx p{padding:5px 0;}
+.bx dt{font-size: 20px;font: bold;}
+.banner{ width: 100%; height: 500px; margin:0 auto; position: relative; z-index: 0;}
+.banner ul li{ position: absolute; left: 0; top:0; display: none; width: 100%; height: 500px;/*把所有的li都隐藏*/}
+.banner ul li a{ display: block; height: 500px;}
+.banner ol{ position: absolute; right: 10px; bottom:10px;}
+.banner ol li{ width: 30px; height: 20px; text-align: center; line-height: 20px; background: rgba(0,0,0,0.3); float: left; margin: 0 5px; border:1px solid #fff; color: #fff; cursor: pointer;}
+.banner ol li:hover{ background: rgba(0,0,0,0.6);}
+.left,.right{ width: 41px; height: 69px; background: url("../images/arr.png"/*tpa=http://www.91kaidian.com/images/arr.png*/) no-repeat; position: absolute; top:175px; z-index: 100; display: none;}
+.left{ background-position: -84px 0; left: 0;}
+.left:hover{ background-position:left;}
+.right{ background-position: right 0; right: 0;}
+.right:hover{ background-position: -42px 0;}
+.banner ol li.current{ background: rgba(0,0,0,0.6);}
+.banner ul li:nth-of-type(1){ background:url("../images/banner2.jpg") center center;}
+.banner ul li:nth-of-type(2){ background:url("../images/banner5.jpg") center center;}
+.banner ul li:nth-of-type(3){ background:url("../images/banner1.jpg") center center;}
+.banner ul li:nth-of-type(4){ background:url("../images/banner4.jpg") center center;}
+.banner ul li:nth-of-type(5){ background:url("../images/banner6.jpg") center center;}
+/*.banner ul li:nth-of-type(2){ background:url("../images/banner4.jpg") center center;}
+.banner ul li:nth-of-type(5){ background:url("../images/banner5.jpg") center center;}
+.banner ul li:nth-of-type(6){ background:url("../images/banner6.jpg") center center;}*/
+
+header{ width: 100%;}
+.header-t{ width: 100%; height: 41px; background: #dfdfdf; position: relative; z-index: 999;}
+.header-t ul{  width: 1200px; height: 41px; margin: 0 auto;}
+.header-t ul li{ float: left; font-size: 12px; color: #999999; height: 41px; line-height: 41px;}
+.header-t ul li:hover{ color: #666;}
+.header-t ul li dl{ overflow: hidden;}
+.header-t ul li dl dt,.header-t ul li dl dd{ float: left;}
+.header-t ul li dl dd{ margin-left: 8px;}
+.header-t ul .li1{ margin-left: 20px;}
+.header-t ul .li2{ margin-left: 20px; position: relative;}
+/*.header-t ul .li2 .img1{ position: absolute; top: 41px; left: 0; z-index: 1;}*/
+.header-t ul .li2 .img2{ position: absolute; top: 41px; left: 0; z-index: 1;}
+.header-t ul .li2 .xg{ display:none;}
+.header-t ul .li2:hover .xg{ display:block;}
+.header-t ul .li3{ float: right; margin-right: 20px;}
+.header-t ul .li4{ float: right; margin-right: 20px;}
+.header-t ul .li5{ float: right; margin-right: 20px;}
+.header-t ul .li6{ float: right; margin-right: 20px;}
+.header-t ul .li7{ float: right; width: 167px; height: 28px; border: 1px solid #999; border-radius: 3px; border-right: 0; margin-top: 5px; position: relative; background: #fff;}
+.header-t ul .li7 input{ outline: none; border: 0; background: none; width: 163px; height: 30px; padding-left: 5px; position: absolute; top: -1px; left: -1px;}
+.header-t ul .li7 span img{ display:block; position: absolute; right: -1px; top: -1px;}
+.clear{clear:both; height: 0; line-height: 0; font-size: 0;}
+.header-t ul .li1 dl dt{ width: 26px; height: 41px; background: url("../images/hdsy.png"/*tpa=http://www.91kaidian.com/images/hdsy.png*/) no-repeat left center;}
+.header-t ul .li1:hover dl dt{ background: url("../images/hdsy1.png"/*tpa=http://www.91kaidian.com/images/hdsy1.png*/) no-repeat left center;}
+.header-t ul .li2 dl dt{ width: 26px; height: 41px; background: url("../images/gzwx.png"/*tpa=http://www.91kaidian.com/images/gzwx.png*/) no-repeat left center;}
+.header-t ul .li2:hover dl dt{ background: url("../images/gzwx1.png"/*tpa=http://www.91kaidian.com/images/gzwx1.png*/) no-repeat left center;}
+.header-t ul .li3 dl dt{ width: 22px; height: 41px; background: url("../images/dszx.png"/*tpa=http://www.91kaidian.com/images/dszx.png*/) no-repeat left center;}
+.header-t ul .li3:hover dl dt{ background: url("../images/dszx1.png"/*tpa=http://www.91kaidian.com/images/dszx1.png*/) no-repeat left center;}
+.header-t ul .li4 dl dt{ width: 22px; height: 41px; background: url("../images/wszx.png"/*tpa=http://www.91kaidian.com/images/wszx.png*/) no-repeat left center;}
+.header-t ul .li4:hover dl dt{ background: url("../images/wszx1.png"/*tpa=http://www.91kaidian.com/images/wszx1.png*/) no-repeat left center;}
+.header-t ul .li5 dl dt{ width: 18px; height: 41px; background: url("../images/zc.png"/*tpa=http://www.91kaidian.com/images/zc.png*/) no-repeat left center;}
+.header-t ul .li5:hover dl dt{ background: url("../images/zc1.png"/*tpa=http://www.91kaidian.com/images/zc1.png*/) no-repeat left center;}
+.header-t ul .li6 dl dt{ width: 22px; height: 41px; background: url("../images/dl.png"/*tpa=http://www.91kaidian.com/images/dl.png*/) no-repeat left center;}
+.header-t ul .li6:hover dl dt{ background: url("../images/dl1.png"/*tpa=http://www.91kaidian.com/images/dl1.png*/) no-repeat left center;}
+
+/*.header-m{ width: 1200px; margin: 0 auto; height: 120px;}
+.header-m ul{ overflow:  hidden;}
+.header-m ul .li1{ float: left; overflow: hidden;}
+.header-m ul .li2{ float: right;}
+.header-m ul .li3{ float: right; width: 138px; height: 48px; border: 1px solid #999; border-radius: 5px; font-size: 18px; text-align: center; line-height: 48px; margin-top: 37px;}
+.header-m ul .li3 a{ display:block; color: #999; }
+.header-m ul .li3:hover{ background: #0db05f; font-weight: bold;}
+.header-m ul .li3:hover a{ color: #fff;}
+
+.header-m ul li dl{ overflow: hidden;}
+.header-m ul li dl dt,.header-m ul li dl dd{ float: left;}
+.header-m ul .li2 dl{ height: 50px; margin: 37px 20px 0 0;  }
+.header-m ul .li2 dl dt{ margin-right: 10px; line-height: 50px; font-size: 24px; color: #ff0505; }
+.header-m ul .li8{
+    float: right;
+    margin: 37px 20px 0 0;
+    width: 140px;
+    height: 50px;
+    line-height: 50px;
+    background: #999999;  
+    font-size: 12px;
+    text-align: center;     
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -o-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+}
+.header-m ul .li8 a{
+    color: #fff;
+}
+.header-m ul .li8:hover{
+    background: #f49800;
+}
+.header-m ul .li8:hover a{
+    color: #fff;
+}
+.header-m ul .li1 .logo{
+    float: left;
+    margin-top: 30px;
+	margin-left: 25px;
+	width: 206px;
+    height: 59px;
+    overflow: hidden;
+}
+.header-m ul .li1 .logo img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.logoalt{
+	float: left;
+	margin: 30px 0 0 10px;
+	padding: 9px 0 0 9px;
+	height: 60px;
+	width: 220px;
+	border-left: 2px solid #dfdfdf;
+}
+.logoalt p{
+	width: 100%;
+	height: 29px;
+	line-height: 29px;
+	color: #6d737a;
+	font-size: 15px;
+}*/
+.header-m{ width: 1200px; margin: 0 auto; height: 120px;}
+.header-m ul{ overflow:  hidden;}
+.header-m ul .li1{ float: left; overflow: hidden;}
+.header-m ul .li2{ float: right;}
+.header-m ul .li3{ float: right; width: 138px; height: 48px; border: 1px solid #999; border-radius: 5px; font-size: 18px; text-align: center; line-height: 48px; margin-top: 37px;}
+.header-m ul .li3 a{ display:block; color: #999; }
+.header-m ul .li3:hover{ background: #0db05f; font-weight: bold;}
+.header-m ul .li3:hover a{ color: #fff;}
+
+.header-m ul li dl{ overflow: hidden;}
+.header-m ul li dl dt,.header-m ul li dl dd{ float: left;}
+.header-m ul .li2 dl{ height: 50px; margin-top: 37px;}
+.header-m ul .li2 dl dd{ margin-left: 10px; font-size: 24px; color: #ff0505; line-height: 50px;}
+
+.header-m ul .li1 .logo{
+    float: left;
+    margin-top: 30px;
+    margin-left: 25px;
+    height: 59px;
+    overflow: hidden;
+}
+.header-m ul .li1 .logo img{
+    display: block;
+    float: left;
+}
+a#abc {
+    display: inline-block;
+    margin-top: 11px;
+    margin-left: 20px;
+    border: 1px solid red;
+}
+.header-m ul .li1 .tba{
+    margin-top: 42px;
+    margin-left: 52px;
+    float: left;
+    overflow: hidden;
+    width: 495px;
+    height: 40px;
+}
+
+.header-m ul .li1 .tba dl{
+    float: left;
+    font-size: 12px;
+    color: #142434;
+    margin-left: 35px;
+}
+.header-m ul .li1 .tba dl:first-child{
+    margin-left: 0;
+}
+.header-m ul .li1 .tba dl dd{
+    margin-left: 10px;
+    line-height: 20px;
+}
+.header-m ul .li1 .tba dl dd p{
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+#navFixed{
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top:0;
+    }
+nav{ width: 100%; height: 50px; background: #142434;}
+nav ul{ width: 1200px; margin: 0 auto; overflow: hidden;}
+nav ul li{ width: 150px; float: left; font-size: 18px; line-height: 50px; text-align: center;}
+nav ul li a{display: block; color: #b4b7ba;}
+nav ul li:hover{ background: #0db05f;}
+nav ul li:hover a{ color: #fff;}
+nav ul li .xl{ width: 150px; position: relative; z-index: 999;}
+nav ul li .xl .tow{ width: 150px; height: 49px; background: #dfdfdf; border-top: 2px solid #fff; font-size: 16px; }
+nav ul li .xl .tow a{
+    color: #142434;
+}
+nav .li7 a{color:white;background:#e66258;}
+nav ul li .xl .qy{ border-top: 0;}
+nav ul li .xl{ display: none;}
+nav ul li:hover .xl{ display:block;}
+nav ul li .xl .tow:hover{
+    background: #0db05f;
+}
+nav ul li .xl .tow:hover a{
+    color: #fff;
+}
+.tp-d{ width: 100%; background: #142434; padding-bottom: 50px;}
+.tp-d h2 a{color:#999; }
+.tp-d h2{ font-weight: normal; font-size: 16px; color: #999; text-align: center;}
+.banx-h{ width: 1200px; margin: 0 auto; padding: 60px 0 40px; overflow: hidden;}
+.ban1{ float: left; margin-left: 60px;}
+.ban1 ul{ overflow: hidden;}
+.ban1 ul .li1{text-indent:-9999px; font-size: 20px;  line-height: 68px; width: 208px; height: 68px; background:url("../images/dblogo.png") no-repeat center center ; padding-left: 5px; font-weight: bold;margin-top:30px;}
+.ban2{ float: left; width: 2px; height: 90px; background: #666; margin-left: 28px; margin-top: 30px;}
+.ban3{ float: left; width: 170px; margin-left: 50px;}
+.ban3 ul li{ height: 29px; line-height: 29px;  font-size: 16px; color: #999;}
+.banx-h ul .li2:hover{color:red;}
+.ban3 ul .li1{ font-size: 18px; color: #d1d1d1; font-weight:  bold;}
+.ban4{ float: left; width: 273px; margin-left: 40px;}
+.ban4 ul li{ font-size: 16px; color: #999; line-height: 29px; }
+
+.ban4 ul .li1{ font-size: 18px; line-height: 29px;color: #d1d1d1; font-weight: bold; }
+.ban4 ul .li1:hover{color: red}
+.ban4 .fhdb{width:48px;height:49px;overflow:hidden;display:block;float:left;}
+.ban4 .fhdb a:hover{margin-left:-48px;}
+.ban4 .ul1{float: left;padding-left:80px;}
+.ban5{ width: 260px; margin-left: 20px; float: left;}
+.ban5 .li2{margin-top:20px;color:#999;}
+.ban5 ul .li1{ font-size: 18px; color: #d1d1d1; font-weight: bold; margin-top: 0;}
+.ban5 p{color:#999;padding-top:15px;}
+.ban5 .li1:hover{color: red}
+.tp-d .zjd{
+    width: 558px;
+    margin: 0 auto 20px;
+    overflow: hidden;
+}
+.tp-d .zjd img{
+    float: left;
+    display: block;
+    margin-left: 20px;
+}
+.tp-d .zjd img:first-child{
+    margin-left: 0;
+}
+
+.xfl{width:100%;height:auto;position: fixed;bottom: 0;z-index: 100000;}
+.xfl img{width:100%;height:auto;display: block;}
+.ul3{margin: 0 auto;margin-top: 60px;margin-bottom:30px;width: 1200px;height: 400px;}

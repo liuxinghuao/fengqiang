@@ -1,0 +1,174 @@
+/* 
+* @Author: anchen
+* @Date:   2016-08-26 16:08:31
+* @Last Modified by:   anchen
+* @Last Modified time: 2016-08-27 15:10:27
+*/
+
+
+
+.tp-a{ width: 100%; height: 150px; background: #142434; padding-top: 60px;}
+.tp-a h2{ font-size: 48px; color: #dfdfdf; text-align: center; line-height: 60px;}
+.tp-a p{ font-size: 36px; color: #999; text-align: center; margin-top: 10px; font-weight: bold;}
+
+.tp-b{ width: 100%; background: #f3f3f3;}
+.banx-b{ width: 1200px; height: 573px; margin: 0 auto; position: relative;}
+.dy{ width: 300px; height: 573px; background: #dfdfdf; position: absolute; top: 0; right: -280px;}
+.b-l{ position: absolute; top: 0; left: -1000px; width: 578px; height: 503px; background: #f3f3f3; border-right: 1px solid #142434; padding-top: 70px; opacity: 0;}
+.b-l span{ position: absolute; top: 0; left: 469px;}
+.b-l ul li dl{overflow: hidden;}
+.b-l ul li dl dt,.b-l ul li dl dd{ float: left;}
+.b-l ul li dl dd{ margin-left: 10px;}
+.b-l ul li dl dt img{ display:block;}
+.b-l ul .li1{ font-size: 24px; color: #f49800; font-weight: bold; margin-left: 277px;}
+.b-l ul .li2{ width: 396px; height: 46px; border: 2px solid #f49800; border-radius: 5px; text-align: center; line-height: 46px; font-size: 24px; color: #666; font-weight: bold; margin-top: 20px;}
+.b-l ul .li3,.b-l ul .li4{ margin-top: 30px;}
+.b-l ul .li3 dl dd p,.b-l ul .li4 dl dd p{ font-size: 14px; color: #142434; margin-top: 90px;}
+.b-l ul .li3 dl dd h5,.b-l ul .li4 dl dd h5{ font-size: 18px; color: #142434; margin-top: 5px; font-weight: bold;}
+.b-r{ position: absolute; top: 0; right: -1000px; width: 560px; height: 503px; background: #dfdfdf; border-left: 1px solid #142434; padding-top: 70px; padding-right: 20px; opacity: 0;}
+.b-r span{ position: absolute; top: 0; right: 471px;}
+.b-r ul li dl{overflow: hidden;}
+.b-r ul li dl dt{ float: right;}
+.b-r ul li dl dd{ float: right; text-align: right; margin-right: 10px;}
+.b-r ul li dl dt img{ display:block;}
+.b-r ul .li1{ font-size: 24px; color: #0db05f; font-weight: bold; margin-left: 162px;}
+.b-r ul .li2{ width: 396px; height: 46px; border: 2px solid #0db05f; border-radius: 5px; text-align: center; line-height: 46px; font-size: 24px; color: #666; font-weight: bold; margin-left: 162px; margin-top: 20px;}
+.b-r ul .li3,.b-r ul .li4{ margin-top: 30px;}
+.b-r ul .li3 dl dd p,.b-r ul .li4 dl dd p{ font-size: 14px; color: #142434; margin-top: 90px;}
+.b-r ul .li3 dl dd h5,.b-r ul .li4 dl dd h5{ font-size: 18px; color: #142434; margin-top: 5px; font-weight: bold;}
+
+.banx-c{ width: 1200px; margin: 0 auto; overflow: hidden; position: relative;}
+.c-l{ float: left; width: 558px; border-right: 1px solid #142434; padding-top: 50px; padding-bottom: 55px; padding-left: 40px; margin-left: -1000px; opacity: 0;}
+.c-l h2{ font-size: 24px;}
+.c-l ul{ overflow: hidden; margin-top: 45px;}
+.c-l ul li{ float: left; margin-left: 50px; width: 120px; height: 120px; position: relative; border-radius: 50%;}
+.c-l ul li p{ font-size: 18px; color: #fff; font-weight: bold; width: 120px; height: 120px; position: absolute; top: 0; left: 0; background: rgba(20,36,52,.6); border-radius: 50%; text-align: center; line-height: 120px; display: none;}
+.c-l ul li:hover p{display:block;}
+.c-l ul .li1{ margin-left: 26px; background: url("../images/fw7.jpg"/*tpa=http://www.91kaidian.com/images/fw7.jpg*/) no-repeat top left;}
+.c-l ul .li2{ background: url("../images/fw8.jpg"/*tpa=http://www.91kaidian.com/images/fw8.jpg*/) no-repeat top left;}
+.c-l ul .li3{ background: url("../images/fw9.jpg"/*tpa=http://www.91kaidian.com/images/fw9.jpg*/) no-repeat top left;}
+.c-l ul .li4{ background: url("../images/fw10.jpg"/*tpa=http://www.91kaidian.com/images/fw10.jpg*/) no-repeat top left; margin-left: 26px;}
+.c-l ul .li5{ background: url("../images/fw11.jpg"/*tpa=http://www.91kaidian.com/images/fw11.jpg*/) no-repeat top left;}
+.c-l ul .li6{ background: url("../images/fw12.jpg"/*tpa=http://www.91kaidian.com/images/fw12.jpg*/) no-repeat top left;}
+.c-l ul .mat{ margin-top: 30px;}
+
+.c-r{ float: left; width: 549px; border-left: 1px solid #142143; padding-top: 50px; padding-bottom: 55px; padding-left: 40px; margin-left: -2000px; opacity: 0;}
+.c-r h2{ font-size: 24px; margin-left: 70px;}
+.c-r ul{ overflow: hidden; margin-top: 45px;}
+.c-r ul li{ float: left; margin-left: 50px; width: 120px; height: 120px; border-radius: 50%; font-size: 18px; color: #fff; font-weight: bold;text-align: center; line-height: 120px;}
+.c-r ul .li1{ margin-left: 26px; background: #fb8d41;}
+.c-r ul .li2{ background: #3c9de2;}
+.c-r ul .li3{ background: #2cc0a8;}
+.c-r ul .li4{ margin-left: 26px; background: #64c7cc;}
+.c-r ul .li5{ background: #63c356;}
+.c-r ul .li6{ background: #64c7cc;}
+.c-r ul .mat{ margin-top: 30px;}
+.qt{ width: 114px; height: 114px; background: #ffba13; border-radius: 50%; padding: 6px; font-size: 30px; font-weight: bold; position: absolute; top: 0; margin-left: 50%; left: -65px; opacity: 0;}
+.qt p{ width: 114px; height: 114px; background: #142434; text-align: center; line-height: 114px;   color: #f49800; border-radius: 50%;}
+.qt p span{ color: #0e9858;}
+
+.tp-e{ width: 100%; height: 460px; overflow: hidden; position: relative;}
+.e1{ float: left; width: 50%; height: 460px; background: #dfdfdf;}
+.e2{ float: right; width: 50%; height: 460px; background: #142434;}
+
+.banx-e{ width: 1200px; height: 425px; padding-top: 35px; position: absolute; top: 0; margin-left: 50%; left: -600px; background: url("../images/fw13.png"/*tpa=http://www.91kaidian.com/images/fw13.png*/) no-repeat 13px 88px; overflow: hidden; opacity: 0;}
+.e-l{ width: 600px; float: left; margin-left: -1000px; opacity: 0;}
+.e-l h3{ font-size: 30px; line-height: 48px;}
+.e-l ul li{ line-height: 48px; font-size: 14px; font-weight: bold; position: relative; padding-left: 32px; margin-left: 28px;}
+.e-l ul li span{ display: inline-block; width: 24px; height: 24px; border-radius: 50%; background: #f49800; position: absolute; left: 0; top: 11px; text-align: center; line-height: 24px;}
+.e-l ul .li1{ margin-top: 10px;}
+.e-r{ width: 484px; float: right; padding-left: 116px; margin-right: -1000px; opacity: 0;}
+.e-r h3{ font-size: 30px; line-height: 48px; text-align: right; color: #fff;}
+.banx-e ul li:hover{font-size: 15px;}
+.e-l ul li:hover{ color: #f49800;}
+.e-r ul li:hover{ color: #0e9858;}
+.e-r ul li{ line-height: 48px; font-size: 14px; font-weight: bold; position: relative; padding-left: 32px; color: #dfdfdf;}
+.e-r ul li span{ display: inline-block; width: 24px; height: 24px; border-radius: 50%; background: #0e9858; color: #dfdfdf; position: absolute; left: 0; top: 11px; text-align: center; line-height: 24px;}
+.e-r ul .li1{ margin-top: 10px;}
+
+.banx-f{ width: 1200px; height: 500px; margin: 0 auto; position: relative; padding-top: 40px;}
+.f-l{ position: absolute; top: 0; left: -1000px; opacity: 0; width: 599px; height: 500px; border-right: 1px solid #142434; padding-top: 40px;}
+.f-l h2{ font-size: 30px; text-align: center;}
+.f-l h2 span{ font-size: 36px; color: #f49800;}
+.f-l p{ font-size: 24px; color: #333; text-align: center; font-weight: bold; margin-top: 20px;}
+.f-l p span{ font-size: 14px; color: #f49800; margin-right: 20px;}
+.f-l img{ display:block; width: 413px; height: 309px; margin-left: 94px; margin-top: 50px;}
+.f-r{ position: absolute; top: 0; right: -1000px; opacity: 0; width: 599px; height: 500px; border-left: 1px solid #142434; padding-top: 40px;}
+.f-r h2{ font-size: 30px; text-align: center;}
+.f-r h2 span{ font-size: 36px; color: #0e9858;}
+.f-r p{ font-size: 24px; color: #333; text-align: center; font-weight: bold; margin-top: 20px;}
+.f-r p span{ font-size: 14px; color: #0e9858;}
+.f-r img{ display:block; width: 413px; height: 309px; margin-left: 55px; margin-top: 40px;}
+
+.tp-g{ width: 100%; overflow: hidden; position: relative;}
+.g1{ float: left; width: 50%; background: #dfdfdf; height: 630px;}
+.g2{ float: left; width: 50%; background: #142434; height: 630px;}
+.banx-g{ position: absolute; top: 0; margin-left: 50%; left: -600px; width: 1200px; height: 630px; position: relative;}
+.g-l{ position: absolute; top: 0; left: -1000px; opacity: 0; width: 600px; height: 585px; padding-top: 45px;}
+.g-r{ position: absolute; top: 0; right: -1000px; opacity: 0; width: 600px; height: 585px; padding-top: 45px;}
+.banx-g ul{ width: 429px; margin: 40px auto 0; overflow: hidden;}
+.banx-g ul li{ float: left; margin-left: 45px;}
+.banx-g ul .li1,.banx-g ul .li4{ margin-left: 0;}
+.banx-g ul li dl dd{ font-size: 18px; color: #666; font-weight: bold; text-align: center;}
+.banx-g ul .mat{ margin-top: 25px;}
+.banx-g h2{ font-size: 30px; text-align: center; line-height: 36px;}
+.banx-g p{ font-size: 24px; color: #666; text-align: center; line-height: 36px;}
+.banx-g a{ display:block; width: 222px; height: 42px; border-radius: 11px; background: #f49800; font-size: 18px; color: #fff; font-weight: bold; text-align: center; line-height: 42px; margin: 55px auto 0;}
+.g-r h2{color: #fff;}
+.g-r p{ color: #999;}
+.g-r ul li dl dd{ color: #999;}
+.g-r a{background: #0db05f;}
+
+.banx-i{ width: 1200px; margin: 0 auto; padding-top: 60px;}
+.banx-i h2{ font-size: 48px; text-align: center;}
+.banx-i .p1{ font-size: 30px; color: #333; font-weight: bold; text-align: center; margin-top: 5px;}
+.banx-i ul{ overflow: hidden; margin-top: 43px; padding-bottom: 35px; margin-left: -2000px; opacity: 0;}
+.banx-i ul li{ float: left; width: 227px; height: 177px; border: 3px solid #fe9041; border-radius: 50%; margin-left: 50px; font-size: 30px; font-weight: bold; text-align: center; padding-top: 50px; position: relative;}
+.banx-i ul li span{ font-size: 48px;}
+.banx-i ul .li1{ margin-left: 55px; color: #fe9041;}
+.banx-i ul .li2{ margin-left: 55px; color: #31b0e3; border: 3px solid #31b0e3;}
+.banx-i ul .li3{ margin-left: 55px; color: #ff5c5d; border: 3px solid #ff5c5d;}
+.banx-i ul .li4{ margin-left: 55px; color: #29d5e1; border: 3px solid #29d5e1;}
+.banx-i ul li p{position: absolute; width: 207px; height: 195px; top: -2px; left: -2px; font-size: 18px; color: #fff;font-weight: bold; padding: 65px 13px 0; display: none;}
+.banx-i ul li:hover p{ display:block;}
+.banx-i ul .li1 p{ background: url("../images/fw28.png"/*tpa=http://www.91kaidian.com/images/fw28.png*/) no-repeat top left;}
+.banx-i ul .li2 p{ background: url("../images/fw29.png"/*tpa=http://www.91kaidian.com/images/fw29.png*/) no-repeat top left;}
+.banx-i ul .li3 p{ background: url("../images/fw30.png"/*tpa=http://www.91kaidian.com/images/fw30.png*/) no-repeat top left;}
+.banx-i ul .li4 p{ background: url("../images/fw31.png"/*tpa=http://www.91kaidian.com/images/fw31.png*/) no-repeat top left;}
+.i-t{ width: 1107px; height: 499px; margin: 10px auto 145px; position: relative; opacity: 0;}
+.i-t img{ display:block; width: 1107px; height: 499px; position: absolute;}
+.i-t .img1{ z-index: 1;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

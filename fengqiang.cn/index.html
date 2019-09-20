@@ -1,0 +1,845 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8" />
+    <title>开店教学官方网站</title>
+	<meta name="keywords" content="开店之星官方网站">
+	<meta name="description" content="欢迎来到开店之星官方网站，我们为您提供优质的网店加盟服务，包括网店装修、网店货源、网店培训、货源一件代发等服务">
+		<link rel="stylesheet" type="text/css" href="css/share.css"  />
+		<link rel="stylesheet" type="text/css" href="css/index.css"  />
+		<link rel="stylesheet" type="text/css" href="css/animate.min.css"  />
+		<link rel="short cut icon" href="images/favicon.ico">
+		<script type="text/javascript" src="js/jquery-1.11.1.min.js" ></script>
+		<script type="text/javascript" src="js/kaidian.js" ></script>
+		<script type="text/javascript" src="js/jquery-1.7.1.js" ></script>
+		<script src="js/delaunay.js" ></script>
+		<script src="js/TweenMax.js" ></script>
+	</head>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?90aafd575a19cc1e767bfb951245af49";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+	<body>
+		<header>
+
+			<div class="header-m"> 
+        <ul>
+            <li class="li1">
+                <div class="logo">
+                    <h1>
+                        <img src="images/logo.png"  height="59" width="206" alt="" title="开店之星电商" />
+                        <a id="abc" href="">
+                            <img src="images/yx.png"  alt="" />
+                        </a>
+                     </h1>
+                    <script>
+                        var i=0;
+                        function shine(id){
+                            var obj= document.getElementById('abc');
+                            if(i==0){
+                                obj.style.borderColor="red";i=1;
+                            }
+                            else{
+                                obj.style.borderColor="#E9F47B";i=0
+                            }
+                        }
+                        setInterval("shine('abc')",300);//边框变化时间，100可以根据情况调整大小
+                    </script>
+                 </div>
+                 <div class="tba">
+                     <dl>
+                         <dt><img src="images/zj1.jpg"  alt="" /></dt>
+                         <dd>
+                             <p>包教包会</p>
+                             手把手指导开店
+                         </dd>
+                     </dl>
+                     <dl>
+                         <dt><img src="images/zj2.jpg"  alt="" /></dt>
+                         <dd>
+                             <p>优质货源</p>
+                             100%正品权威认证
+                         </dd>
+                     </dl>
+                     <dl>
+                         <dt><img src="images/zj3.jpg"  alt="" /></dt>
+                         <dd>
+                             <p>全程协助</p>
+                             全天候服务保障
+                         </dd>
+                     </dl>
+                 </div>
+             </li>
+             <li class="li2">
+                    <dl>
+                        <dt><img src="images/dh.jpg"  height="50" width="50" alt="" /></dt>
+                       <a href="http://ala.zoossoft.com/LR/Chatpre.aspx?id=ALA15819841&amp;lng=cn&amp;p=&amp;r"> <dd>点击咨询</dd></a>
+                    </dl>
+             </li>
+         </ul>
+     </div>
+			<nav id="nav">
+				<ul>
+					<li class="li1">
+						<a href="index.html">首页</a>
+					</li>
+					<li class="li2">
+						<a href="tbwd.html">天猫开店</a>
+						<div class="xl">
+							<div class="tow">
+								<a href="sjtb.html">手淘店铺</a>
+							</div>
+							<div class="tow">
+								<a href="sjwd.html">微信开店</a>
+							</div>
+							<div class="tow">
+								<a href="hlhy.html">万种货源</a>
+							</div>
+						</div>
+					</li>
+					<li class="li3">
+						<a href="hlhy.html">万种货源</a>
+					</li>
+					<li class="li4">
+						<a href="sjwd.html">微信开店</a>
+					</li>
+					<li class="li5">
+						<a href="cgal.html" >店铺效果</a>
+					</li>
+					<li class="li6">
+						<a href="sjtb.html">手淘店铺</a>
+					</li>
+					<li class="li7">
+						<a href="http://ala.zoossoft.com/LR/Chatpre.aspx?id=ALA15819841&amp;lng=cn&amp;p=&amp;r">立即咨询</a>
+					</li>
+					<li class="li8">
+						<a href="fwxm.html">全网营销</a>
+					</li>
+				</ul>
+			</nav>
+			<nav id="navFixed" style="display:none;">
+				<ul>
+					<li class="li1">
+						<a href="index.html">首页</a>
+					</li>
+					<li class="li2">
+						<a href="tbwd.html">天猫开店</a>
+						<div class="xl">
+							<div class="tow">
+								<a href="sjtb.html">手淘店铺</a>
+							</div>
+							<div class="tow">
+								<a href="sjwd.html">微信开店</a>
+							</div>
+							<div class="tow">
+								<a href="hlhy.html">万种货源</a>
+							</div>
+						</div>
+					</li>
+					<li class="li3">
+						<a href="hlhy.html">万种货源</a>
+					</li>
+					<li class="li4">
+						<a href="sjwd.html">微信开店</a>
+					</li>
+					<li class="li5">
+						<a href="cgal.html" >店铺效果</a>
+					</li>
+					<li class="li6">
+						<a href="sjtb.html">手淘店铺</a>
+					</li>
+					<li class="li7">
+						<a href="http://ala.zoossoft.com/LR/Chatpre.aspx?id=ALA15819841&amp;lng=cn&amp;p=&amp;r">立即咨询</a>
+					</li>
+					<li class="li8">
+						<a href="fwxm.html">全网营销</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<div class="banner">
+			<a href="javascript:;" class="left"></a>
+			<a href="javascript:;" class="right"></a>
+			<ul>
+				<li style="display:block;">
+					<a href="http://ala.zoossoft.com/LR/Chatpre.aspx?id=ALA15819841&amp;lng=cn&amp;p=&amp;r"></a>
+				</li>
+				<li>
+					<a href="http://ala.zoossoft.com/LR/Chatpre.aspx?id=ALA15819841&amp;lng=cn&amp;p=&amp;r"></a>
+				</li>
+				<li>
+					<a href="http://ala.zoossoft.com/LR/Chatpre.aspx?id=ALA15819841&amp;lng=cn&amp;p=&amp;r"></a>
+				</li>
+				<li>
+					<a href="http://ala.zoossoft.com/LR/Chatpre.aspx?id=ALA15819841&amp;lng=cn&amp;p=&amp;r"></a>
+				</li>
+				<!---->
+				<!---->
+				<!---->
+				<!---->
+				<!---->
+			</ul>
+			<ol>
+				<li class="current">1</li>
+				<li>2</li>
+				<li>3</li>
+				<li>4</li>
+			</ol>
+		</div>
+		<div class="tp-a">
+			<div class="banx-a animated rollIn" id="dowebok">
+				<h2>淘宝  微店  2店同开</h2>
+				<h3>全网最优势货源引爆网店订单 </h3>
+				<p>开店教学----打造网店中的明星<br /> 无论是新手网店创业，还是传统行业转型，选择开店教学就是选择成功
+				</p>
+			</div>
+		</div>
+		<div class="banx-b">
+			<div class="b-t">
+				<!-- <ul>
+                <li class="li1">企业微营销</li>
+                <li class="li2">微商城运营</li>
+                <li class="li3">微店扶持</li>
+                <li class="li4">微商代理</li>
+            </ul> -->
+			</div>
+			<div class="b-b">
+				<ul class="ul1">
+					<li class="li1">申请开店</li>
+					<li>手机淘宝</li>
+					<li>递交资料</li>
+					<li>设置店铺</li>
+				</ul>
+				<ul>
+					<li class="li1">万种货源</li>
+					<li>开通货源</li>
+					<li>一键上架</li>
+					<li>一键更新</li>
+				</ul>
+				<ul>
+					<li class="li1">站内宣传</li>
+					<li>站外宣传</li>
+					<li>淘宝客推广</li>
+					<li>返利型推广 </li>
+				</ul>
+				<ul>
+					<li class="li1">全程教学</li>
+					<li>7*12在线</li>
+					<li>一键发货</li>
+					<li>火速送达</li>
+				</ul>
+			</div>
+			<div class="xia">
+				<img src="images/sy3.jpg"  alt="" />
+			</div>
+		</div>
+		<div class="banx-c animated rollIn" id="dowebok">
+			<h2>全面互联网营销培训</h2>
+			<img class="img1" src="images/fgx.jpg"  height="1" width="668" alt="" />
+			<p>从0-1000000的实操秘诀</p>
+			<div class="c-a">
+				<h2>开店教学王牌课程</h2>
+				<div class="c-a-l">
+					<ul>
+						<li class="li1 mat">
+							<dl>
+								<dt><h3>教学</h3></dt>
+								<dd>
+									客服7*12在线<br /> 1对1单独指导
+									<br /> 手把手的教学
+									<br /> 直到学会为止
+								</dd>
+							</dl>
+						</li>
+						<li class="li2 mat">
+							<dl>
+								<dt><h3>服务</h3></dt>
+								<dd>
+									无基础，没关系<br /> 无经验，不用怕
+									<br /> 语音/电话/技术
+									<br /> 全程最贴心服务
+								</dd>
+							</dl>
+						</li>
+						<li class="li3 mat">
+							<dl>
+								<dt><h3>最优</h3></dt>
+								<dd>
+									全网服务最优<br />全网开店最快
+									<br /> 全网经营最好
+									<br /> 服务过万学员
+								</dd>
+							</dl>
+						</li>
+						<li class="li4 ma">
+							<dl>
+								<dt><h3>货源</h3></dt>
+								<dd>
+									汇聚国内上千厂家<br /> 整合厂商上万货源
+									<br /> 服饰/母婴/数码等
+									<br /> 打造最强供货平台
+								</dd>
+							</dl>
+						</li>
+						<li class="li5 ma">
+							<dl>
+								<dt><h3>全网</h3></dt>
+								<dd>
+									淘宝微店2店同开<br /> 淘宝微信同时运营
+									<br /> 手机淘宝微淘宣传
+									<br /> 全网宣传店铺宝贝
+
+								</dd>
+							</dl>
+						</li>
+						<li class="li6 ma">
+							<dl>
+								<dt><h3>最佳</h3></dt>
+								<dd>
+									提供最佳推广方案<br /> 提供最佳货源代销
+									<br /> 提供最佳运营教学
+									<br /> 打造最佳明星店铺
+
+								</dd>
+							</dl>
+						</li>
+					
+					</ul>
+				</div>
+				<div class="c-a-r">
+					<a href="http://ala.zoossoft.com/LR/Chatpre.aspx?id=ALA15819841&amp;lng=cn&amp;p=&amp;r" target="_blank" title="点击咨询代销"><img src="images/cyc.jpg" alt=""></a>
+				</div>
+			</div>
+			<div class="sjx">
+				<img src="images/sy3.jpg"  alt="" />
+			</div>
+		</div>
+		<script type="text/javascript">
+			$(function() {
+				$(window).scroll(function() {
+					if($(window).scrollTop() > ($(".banx-b").offset().top - $(window).height() / 2)) {
+						$(".b-t").animate({
+							"margin-left": "40px",
+							opacity: 1
+						}, 500, "swing");
+						$(".b-b").animate({
+							"margin-left": "40px",
+							opacity: 1
+						}, 1000, "swing");
+					}
+					if($(window).scrollTop() > ($(".banx-c").offset().top - $(window).height() / 2)) {
+						$(".c-a-l").animate({
+							"margin-left": "16px",
+							opacity: 1
+						}, 500, "swing");
+						$(".c-a-r").animate({
+							"margin-left": "0",
+							opacity: 1
+						}, 1000, "swing");
+					}
+					if($(window).scrollTop() > ($(".banx-d").offset().top - $(window).height() / 2)) {
+						$(".box-l").animate({
+							"margin-left": "0",
+							opacity: 1
+						}, 500, "swing");
+						$(".box-m").animate({
+							"margin-left": "0",
+							opacity: 1
+						}, 1000, "swing");
+						$(".box-r").animate({
+							"margin-left": "0",
+							opacity: 1
+						}, 1500, "swing");
+					}
+					if($(window).scrollTop() > ($(".banx-e").offset().top - $(window).height() / 2)) {
+						$(".banx-e h2").animate({
+							opacity: 1
+						}, 500, "swing");
+						$(".banx-e .p1").animate({
+							opacity: 1
+						}, 1000, "swing");
+						$(".e-l").animate({
+							"margin-left": "0",
+							opacity: 1
+						}, 500, "swing");
+						$(".e-r").animate({
+							"margin-right": "0",
+							opacity: 1
+						}, 500, "swing");
+					}
+					if($(window).scrollTop() > ($(".banx-f").offset().top - $(window).height() / 2)) {
+						$(".banx-f .ul3").animate({
+							"margin-left": "0",
+							opacity: 1
+						}, 500, "swing");
+					}
+					if($(window).scrollTop() > ($(".banx-g").offset().top - $(window).height() / 2)) {
+						$(".ydtt").animate({
+							opacity: 1
+						}, 500, "swing");
+						$(".yddd").animate({
+							opacity: 1
+						}, 500, "swing");
+					}
+					if($(window).scrollTop() > ($(".tp-d").offset().top - $(window).height() / 2)) {
+						$(".tp-d").animate({
+							opacity: 1
+						}, 500, "swing");
+					}
+				});
+			});
+		</script>
+		<div class="tp-b">
+			<h2 class=" animated rubberBand" id="dowebok">专业实力团队</h2>
+			<img class=" animated rubberBand" id="dowebok" src="images/fgx.jpg"  height="1" width="668" alt="" />
+			<p class=" animated rubberBand" id="dowebok"> 全程保障您的效益</p>
+		</div>
+		<div class="banx-d">
+			<div class="box-l da" name="1">
+				<h3>多年淘宝经验<br/>导师团队</h3>
+				<p>
+					开店教学售后团队，是拥有国内多年<br />淘宝 运营经验的导师，组成提供最佳<br />运营
+					 教学方案，打造实战型售后团队
+				</p>
+				<h4>实战经典课程：</h4>
+				<ul>
+					<li class="li1">淘宝宣传</li>
+					<li class="li2 mal">淘宝活动</li>
+					<li class="li3">爆款打造</li>
+					<li class="li4 mal">店铺运营</li>
+					
+				</ul>
+			</div>
+			<div class="box-m" name='0'>
+				<img class="img1" src="images/sy5.jpg.html"  alt="" />
+				<img class="img2" src="images/sy4.jpg"  alt="" />
+			</div>
+			<script type="text/javascript">
+				$(function() {
+					$('.banx-d .da').hover(function() {
+						$key = $(this).attr('name');
+						// if($key!=0){
+						// alert($key);
+						$('.box-m img').hide();
+						$('.box-m .img' + $key).show();
+						// }           
+					});
+				});
+			</script>
+			<div class="box-r da" name="2">
+				<h3>淘宝宣传</h3>
+				
+				<p>
+					通过站内站外，链接交<br/>换等方式，宣传淘宝店铺<br/>链接达到增加人气的效果
+				</p>
+				<h3>淘宝活动</h3>
+				
+				<p>
+					通过教学，使店铺可以参加淘<br/>宝组织的官方活动，获得上首页<br/>的机会，增加访客，提升店铺销量
+				</p>
+				
+			</div>
+		</div>
+		<div class="xsj"><img src="images/sy3.jpg"  height="37" width="56" alt="" /></div>
+		<div class="banx-e">
+			<h2>开网店，开微店,就找<span>开店教学</span></h2>
+			<p class="p1">企业互联网转型找开店教学 <span>更专业</span></p>
+			<div class="e-l" id="container"></div>
+			<script>
+				const TWO_PI = Math.PI * 2;
+				var images = [],
+					imageIndex = 0;
+
+				var image,
+					imageWidth = 544,
+					imageHeight = 394;
+
+				var vertices = [],
+					indices = [],
+					prevfrag = [],
+					fragments = [];
+
+				var margin = 50;
+
+				var container = document.getElementById('container');
+
+				var clickPosition = [imageWidth * 0.5, imageHeight * 0.5];
+
+				window.onload = function() {
+					TweenMax.set(container, {
+						perspective: 500
+					});
+					var urls = [
+							
+							'images/sy7.jpg',
+							'images/sy8.jpg',
+							'images/sy9.jpg'
+							],
+						image,
+						loaded = 0;
+					images[0] = image = new Image();
+					image.onload = function() {
+						if(++loaded === 1) {
+
+							for(var i = 1; i < urls.length; i++) {
+								images[i] = image = new Image();
+
+								image.src = urls[i];
+							}
+							placeImage();
+						}
+					};
+					image.src = urls[0];
+				};
+
+				function placeImage(transitionIn) {
+					image = images[imageIndex];
+
+					if(++imageIndex === images.length) imageIndex = 0;
+
+					var num = Math.random();
+					if(num < .25) {
+						image.direction = "left";
+					} else if(num < .5) {
+						image.direction = "top";
+					} else if(num < .75) {
+						image.direction = "bottom";
+					} else {
+						image.direction = "right";
+					}
+
+					container.appendChild(image);
+					image.style.opacity = 0;
+
+					if(transitionIn !== false) {
+						triangulateIn();
+					}
+				}
+
+				function triangulateIn(event) {
+					var box = image.getBoundingClientRect(),
+						top = box.top,
+						left = box.left;
+
+					if(image.direction == "left") {
+						clickPosition[0] = 0;
+						clickPosition[1] = imageHeight / 2;
+					} else if(image.direction == "top") {
+						clickPosition[0] = imageWidth / 2;
+						clickPosition[1] = 0;
+					} else if(image.direction == "bottom") {
+						clickPosition[0] = imageWidth / 2;
+						clickPosition[1] = imageHeight;
+					} else if(image.direction == "right") {
+						clickPosition[0] = imageWidth;
+						clickPosition[1] = imageHeight / 2;
+					}
+
+					triangulate();
+					build();
+				}
+
+				function triangulate() {
+					for(var i = 0; i < 40; i++) {
+						x = -margin + Math.random() * (imageWidth + margin * 2);
+						y = -margin + Math.random() * (imageHeight + margin * 2);
+						vertices.push([x, y]);
+					}
+					vertices.push([0, 0]);
+					vertices.push([imageWidth, 0]);
+					vertices.push([imageWidth, imageHeight]);
+					vertices.push([0, imageHeight]);
+
+					vertices.forEach(function(v) {
+						v[0] = clamp(v[0], 0, imageWidth);
+						v[1] = clamp(v[1], 0, imageHeight);
+					});
+
+					indices = Delaunay.triangulate(vertices);
+				}
+
+				function build() {
+					var p0, p1, p2,
+						fragment;
+
+					var tl0 = new TimelineMax({
+						onComplete: buildCompleteHandler
+					});
+
+					for(var i = 0; i < indices.length; i += 3) {
+						p0 = vertices[indices[i + 0]];
+						p1 = vertices[indices[i + 1]];
+						p2 = vertices[indices[i + 2]];
+
+						fragment = new Fragment(p0, p1, p2);
+
+						var dx = fragment.centroid[0] - clickPosition[0],
+							dy = fragment.centroid[1] - clickPosition[1],
+							d = Math.sqrt(dx * dx + dy * dy),
+							rx = 30 * sign(dy),
+							ry = 90 * -sign(dx),
+							delay = d * 0.003 * randomRange(0.9, 1.1);
+						fragment.canvas.style.zIndex = Math.floor(d).toString();
+
+						var tl1 = new TimelineMax();
+
+						if(image.direction == "left") {
+							rx = Math.abs(rx);
+							ry = 0;
+						} else if(image.direction == "top") {
+							rx = 0;
+							ry = Math.abs(ry);
+						} else if(image.direction == "bottom") {
+							rx = 0;
+							ry = -Math.abs(ry);
+						} else if(image.direction == "right") {
+							rx = -Math.abs(rx);
+							ry = 0;
+						}
+
+						tl1.from(fragment.canvas, 1, {
+							z: -50,
+							rotationX: rx,
+							rotationY: ry,
+							scaleX: 0,
+							scaleY: 0,
+							ease: Cubic.easeIn
+						});
+						tl1.from(fragment.canvas, 0.4, {
+							alpha: 0
+						}, 0.6);
+
+						tl0.insert(tl1, delay);
+
+						fragments.push(fragment);
+						container.appendChild(fragment.canvas);
+					}
+				}
+
+				function buildCompleteHandler() {
+					// add pooling?
+					image.style.opacity = 1;
+					image.addEventListener('transitionend', function catchTrans() {
+						fragments.forEach(function(f) {
+							container.removeChild(f.canvas);
+						});
+
+						fragments.length = 0;
+						vertices.length = 0;
+						indices.length = 0;
+
+						placeImage();
+						this.removeEventListener('transitionend', catchTrans, false);
+					}, false);
+
+				}
+
+				//////////////
+				// MATH UTILS
+				//////////////
+
+				function randomRange(min, max) {
+					return min + (max - min) * Math.random();
+				}
+
+				function clamp(x, min, max) {
+					return x < min ? min : (x > max ? max : x);
+				}
+
+				function sign(x) {
+					return x < 0 ? -1 : 1;
+				}
+
+				//////////////
+				// FRAGMENT
+				//////////////
+
+				Fragment = function(v0, v1, v2) {
+					this.v0 = v0;
+					this.v1 = v1;
+					this.v2 = v2;
+
+					this.computeBoundingBox();
+					this.computeCentroid();
+					this.createCanvas();
+					this.clip();
+				};
+				Fragment.prototype = {
+					computeBoundingBox: function() {
+						var xMin = Math.min(this.v0[0], this.v1[0], this.v2[0]),
+							xMax = Math.max(this.v0[0], this.v1[0], this.v2[0]),
+							yMin = Math.min(this.v0[1], this.v1[1], this.v2[1]),
+							yMax = Math.max(this.v0[1], this.v1[1], this.v2[1]);
+
+						this.box = {
+							x: Math.round(xMin),
+							y: Math.round(yMin),
+							w: Math.round(xMax - xMin),
+							h: Math.round(yMax - yMin)
+						};
+
+					},
+					computeCentroid: function() {
+						var x = (this.v0[0] + this.v1[0] + this.v2[0]) / 3,
+							y = (this.v0[1] + this.v1[1] + this.v2[1]) / 3;
+
+						this.centroid = [x, y];
+					},
+					createCanvas: function() {
+						this.canvas = document.createElement('canvas');
+						this.canvas.width = this.box.w;
+						this.canvas.height = this.box.h;
+						this.canvas.style.width = this.box.w + 'px';
+						this.canvas.style.height = this.box.h + 'px';
+						this.canvas.style.left = this.box.x + 'px';
+						this.canvas.style.top = this.box.y + 'px';
+						this.ctx = this.canvas.getContext('2d');
+					},
+					clip: function() {
+						this.ctx.save();
+						this.ctx.translate(-this.box.x, -this.box.y);
+						this.ctx.beginPath();
+						this.ctx.moveTo(this.v0[0], this.v0[1]);
+						this.ctx.lineTo(this.v1[0], this.v1[1]);
+						this.ctx.lineTo(this.v2[0], this.v2[1]);
+						this.ctx.closePath();
+						this.ctx.clip();
+						this.ctx.drawImage(image, 0, 0);
+						this.ctx.restore();
+					}
+				};
+
+			</script>
+<!-- 			<script>
+window.onload=function(){
+    var nav=document.getElementById('nav');
+    var navFixed=document.getElementById('navFixed');
+   window.onscroll=function(){
+        var scrollTop=document.documentElement.scrollTop||document.body.scrollTop;
+        if(scrollTop>nav.offsetTop){
+            navFixed.style.display='block';
+        }else if(scrollTop<nav.offsetTop){
+            navFixed.style.display='none';
+        }
+    }
+};
+</script> -->
+
+			<div class="e-r">
+				<h3>开店教学开启淘宝“一件代发”盈利新模式
+</h3>
+				<p>
+					开店教学创新的一件代发模式，0囤货，0风险，买家付款一笔，到货源系统里面发货一笔，也就是盈利一笔，引领淘宝创业新模式
+
+				</p>
+				<h3>开店教学打造店铺中的明星</h3>
+				<p>
+					开店教学全明星的售后运营团队，主打淘宝站内优化，站外推广，淘宝活动，强大的师资力量，铸就明星店铺
+
+				</p>
+				<h3>“优势货源+宣传教学” 引爆淘宝/微店销量双奇迹
+</h3>
+				<p>
+					开店教学两大核心优势，优势货源和宣传教学，实战型教学方式，引爆淘宝/微店销量奇迹
+				</p>
+				
+			</div>
+		</div>
+		<div class="cnm"><img src="images/sy3.jpg"  height="37" width="56" alt="" /></div>
+		<div class="tp-c">
+			<div class="banx-f">
+				<ul class="ul1">
+					<li class="li3" name="2">品牌合作</li>
+				</ul>
+				<ul class="ul2">
+					<li class="li1"><img src="images/sy10.jpg" alt="" /></li>
+					<li class="li2"><img src="images/sy11.jpg" alt="" /></li>
+					<li class="li3"><img src="images/sy12.jpg" alt="" /></li>
+					<li class="li4"><img src="images/sy13.jpg" alt="" /></li>
+					<li class="li5"><img src="images/sy14.jpg" alt="" /></li>
+					<li class="li6"><img src="images/sy15.jpg" alt="" /></li>
+					<li class="li7"><img src="images/sy16.jpg" alt="" /></li>
+					<li class="li8"><img src="images/sy17.jpg" alt="" /></li>
+					<li class="li9"><img src="images/sy18.jpg" alt="" /></li>
+					<li class="li10"><img src="images/sy19.jpg" alt="" /></li>
+				</ul>
+    </div>
+    	</div>
+    			<div class="ul3"><a href="http://ala.zoossoft.com/LR/Chatpre.aspx?id=ALA15819841&amp;lng=cn&amp;p=&amp;r"><img src="images/banner7.jpg"/></a></div>	
+		<div class="tp-d">
+			<div class="banx-h">
+				<div class="ban1">
+					<ul>
+						<a href="#"><li class="li1">
+							开店教学专业互联网服务平台
+						</li>
+						</a>
+					</ul>
+				</div>
+				<div class="ban2"></div>
+				<div class="ban3">
+					<ul>
+						<li class="li1">网站地图</li>
+						<a href="">
+							<li class="li2">首页   Home</li>
+						</a>
+						<a href="tbwd.html">
+							<li class="li2">淘宝开店</li>
+						</a>
+						<a href="sjwd.html">
+							<li class="li2">微信开店</li>
+						</a>
+						
+					</ul>
+				</div>
+				<div class="ban2"></div>
+				<div class="ban4">
+				<div class="fhdb"><a href="#top"><img src="images/fhdb.png" alt=""/></a>
+				</div>
+					<ul class="ul1">
+						<a href="gywm.html" target="block">
+                        <li class="li1">关于我们</li>
+                        </a>
+						<a href="hlhy.html">
+							<li class="li2">
+							万种货源
+							</li>
+						</a>
+						<a href="cgal.html">
+							<li class="li2">
+							店铺效果
+							</li>
+						</a>
+					</ul>
+				</div>
+				<div class="ban2"></div>
+				<div class="ban5">
+					<ul>
+					<a href="gywm.html">
+						<li class="li1">
+							联系我们						</li>
+						</a>
+						</a>
+						<P>&nbsp;</P>
+						<a href="http://ala.zoossoft.com/LR/Chatpre.aspx?id=ALA15819841&amp;lng=cn&amp;p=&amp;r">
+							<li class="li2">在线咨询</li>
+						</a>
+					</ul>
+				</div>
+		</div>
+				<h2>版权所有：鹰潭单普信息科技有限公司
+<br /><a href=""></a></h2>
+	</div>
+			
+		<script language="javascript" src="js/swt.js" ></script>
+	</body>
+
+</html>
+<script src="swt/float.js"></script>
